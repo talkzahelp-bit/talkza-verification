@@ -11,9 +11,9 @@ App version: web builds deployed on 2026-10-30 (package version 1.0.0). Tested o
 | T5 | Deal card | A deal from Hungry Hours sent to a chat | Card with logo, offer, "% OFF" and "View deal" button | Owner screenshot showed two cards with logo, 20% OFF and View deal | Pass | 2026-10-30 |
 | T6 | Stored messages are scrambled | Read recent message records in the database | Only scrambled text and locked keys; no readable text | Records held only a nonce, ciphertext and per-member locked keys | Pass | 2026-10-30 |
 | T7 | Type check and deploy | Run the type check; deploy to production after each change | No errors; site ready | No errors; site ready each time | Pass | 2026-10-30 |
-| T8 | Messages from a device with a different key | After the key-history fix, reopen the chat that showed "Can't be opened" | Messages open | Not yet retested | Pending | |
-| T9 | Deal posted to Status | Deal sent with "Also post deals to my Status" on | A Status update appears | Not yet confirmed | Pending | |
-| T10 | Message yourself, private contact names | Open "Message yourself"; set a private name | Own chat opens; name shows only for the user | Not yet tested end to end | Pending | |
+| T8 | Messages from a device with a different key | After the key-history fix, reopen the chat that showed "Can't be opened" | Messages open | Messages open, per the owner | Pass (owner) | 2026-11-01 |
+| T9 | Deal posted to Status | Deal sent with "Also post deals to my Status" on | A Status update appears | Deal appeared in Status, per the owner | Pass (owner) | 2026-11-01 |
+| T10 | Message yourself, private contact names | Open "Message yourself"; set a private name | Own chat opens; name shows only for the user | Worked, per the owner | Pass (owner) | 2026-11-01 |
 
 ## Known failures
 - Before 2026-10-30, some deal messages showed "Can't be opened on this device" because the sending device had a different key. A fix was deployed; see T8.

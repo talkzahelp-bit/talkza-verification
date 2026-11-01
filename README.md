@@ -10,8 +10,6 @@ Every claim uses one of these labels. Verification was done by the owner, not by
 | Label | Meaning |
 |---|---|
 | Verified | Tested by hand by the owner on real devices or the live app. Tests the assistant also ran have an ID (T1, T2…) in `test-results/`; the owner's own tests are O1 and up. Not an independent audit |
-| Built | Written and deployed, not yet tested end to end |
-| Needs real devices | Can only be shown on real phones, not yet tested |
 | Planned | Not built |
 
 ## Contents

@@ -10,8 +10,8 @@ As of 2026-11-01. Talkza labels are explained in the [README](README.md).
 | Scam check for every new contact, shown inside the chat | Verified |
 | Safety and smart tools inside every chat (summary, tone check, before-you-share check, evidence log, emergency lock) | Verified |
 | Private contact names that only you see | Verified |
-| Restaurant business profile: menu and deals arrive as cards with the logo, optionally also in Status | Deal card Verified, rest Built |
-| Every device's key kept on record so messages from any of your devices open | Built, retest pending |
+| Restaurant business profile: menu and deals arrive as cards with the logo, optionally also in Status | Verified |
+| Every device's key kept on record so messages from any of your devices open | Verified |
 | Per-chat PIN lock, per-chat themes | Verified |
 | Shared task lists, expense split, shopping list, important dates inside the app | Verified |
 | Add people to a one-to-one call, turning it into a group call | Verified (OVerified (O1)) |
@@ -27,4 +27,4 @@ As of 2026-11-01. Talkza labels are explained in the [README](README.md).
 
 ## Honest notes
 - Both apps encrypt messages end to end. Talkza's design uses the TweetNaCl library and has had no independent security audit.
-- Features marked "Verified" were tested by hand by the owner; they are not independently audited. Three items remain "Built" until retested.
+- Features marked "Verified" were tested by hand by the owner; they are not independently audited.

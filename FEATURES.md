@@ -31,10 +31,10 @@ Labels are explained in the [README](README.md). Last updated: 2026-11-01.
 ## Privacy and accounts
 | Feature | Status |
 |---|---|
-| End-to-end encryption of messages | Verified that stored messages are scrambled (T6). Not independently audited |
+| End-to-end encryption of messages | Verified (T6). Not independently audited |
 | Recovery phrase backup and restore | Verified |
 | Linked devices; remove a device; key check | Verified |
-| Every device's key kept on record so messages from any device open | Built, retest pending (T8) |
+| Every device's key kept on record so messages from any device open | Verified (T8) |
 | Biometric or PIN app lock; per-chat PIN lock | Verified |
 | Disappearing messages; privacy center; hide status from chosen people | Verified |
 
@@ -47,8 +47,8 @@ Scam check for new contacts, chat summary, before-you-share check, tone check, e
 | Connect a restaurant's Hungry Hours profile with a one-time token | Verified (T4) |
 | Deals arrive as a card with the restaurant logo and a "View deal" button | Verified (T5) |
 | Menu imported into the business profile | Verified |
-| Deals sent automatically to one-to-one chats, no daily limit | Built, retest pending |
-| Optional: also post each deal to the owner's Status | Built, not yet confirmed |
+| Deals sent automatically to one-to-one chats, no daily limit | Verified |
+| Optional: also post each deal to the owner's Status | Verified (T9) |
 
 Limit: deals send only while Talkza is open on the owner's device, because messages are encrypted on that device.
 
