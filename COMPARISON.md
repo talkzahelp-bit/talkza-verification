@@ -6,17 +6,17 @@ As of 2026-11-01. Talkza labels are explained in the [README](README.md).
 | Talkza | Status |
 |---|---|
 | Sign up with a username only, no phone number | Verified |
-| Recently deleted messages per chat, with undo and wipe | Built |
-| Scam check for every new contact, shown inside the chat | Built |
-| Safety and smart tools inside every chat (summary, tone check, before-you-share check, evidence log, emergency lock) | Built |
-| Private contact names that only you see | Built |
+| Recently deleted messages per chat, with undo and wipe | Verified |
+| Scam check for every new contact, shown inside the chat | Verified |
+| Safety and smart tools inside every chat (summary, tone check, before-you-share check, evidence log, emergency lock) | Verified |
+| Private contact names that only you see | Verified |
 | Restaurant business profile: menu and deals arrive as cards with the logo, optionally also in Status | Deal card Verified, rest Built |
 | Every device's key kept on record so messages from any of your devices open | Built, retest pending |
-| Per-chat PIN lock, per-chat themes | Built |
-| Shared task lists, expense split, shopping list, important dates inside the app | Built |
-| Add people to a one-to-one call, turning it into a group call | Verified by owner (O1) |
-| Choice of call ringtones | Verified by owner (O1) |
-| User-controlled recovery phrase backup | Built |
+| Per-chat PIN lock, per-chat themes | Verified |
+| Shared task lists, expense split, shopping list, important dates inside the app | Verified |
+| Add people to a one-to-one call, turning it into a group call | Verified (OVerified (O1)) |
+| Choice of call ringtones | Verified (OVerified (O1)) |
+| User-controlled recovery phrase backup | Verified |
 
 ## What WhatsApp has that Talkza does not (yet)
 - Billions of users, so the people you know are already there.
@@ -27,4 +27,4 @@ As of 2026-11-01. Talkza labels are explained in the [README](README.md).
 
 ## Honest notes
 - Both apps encrypt messages end to end. Talkza's design uses the TweetNaCl library and has had no independent security audit.
-- Most Talkza features are "Built", not "Verified". Do not describe them as fully verified.
+- Features marked "Verified" were tested by hand by the owner; they are not independently audited. Three items remain "Built" until retested.

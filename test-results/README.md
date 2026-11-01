@@ -29,3 +29,6 @@ These were run by the owner on two Android phones. They were not watched by the 
 | O3 | Live location | Worked, per the owner |
 | O4 | Premium prompt | Prompt works, per the owner. The code does not take payments, so no billing was tested |
 | O5 | Speed | Owner reports it works well. No figures were recorded, so [PERFORMANCE.md](../PERFORMANCE.md) lists none |
+
+## Owner's statement
+The owner states that every feature marked Verified was tested by hand. The assistant did not watch these tests, and dates and devices were not recorded, apart from the two Android phones used for calls (O1 to O3). The three items still marked "Built" are the ones the owner reported as not yet working: the second-device key fix (T8), automatic deal sending, and posting deals to Status (T9).
