@@ -1,6 +1,6 @@
 # Talkza performance
 
-**No formal performance measurements have been taken yet.** This file will not list numbers until they are measured.
+**No timing figures have been recorded.** The owner reports speed is good on two Android phones (O5). This file will not list numbers until they are measured.
 
 ## Reported by the owner
 - On 2026-10-30 the chat list and chats felt slow to open on a phone. Changes were deployed on 2026-10-30 to reduce reloading and to decrypt messages in parallel. No before and after timing was recorded.

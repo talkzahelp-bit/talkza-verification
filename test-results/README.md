@@ -18,3 +18,14 @@ App version: web builds deployed on 2026-10-30 (package version 1.0.0). Tested o
 ## Known failures
 - Before 2026-10-30, some deal messages showed "Can't be opened on this device" because the sending device had a different key. A fix was deployed; see T8.
 - On 2026-10-30, deals did not send automatically after three had gone out, because of a daily limit. The limit was removed and deployed on 2026-10-30.
+
+## Tests done by the owner (manual, on real devices)
+These were run by the owner on two Android phones. They were not watched by the assistant, and exact dates were not recorded.
+
+| ID | Feature | Result |
+|---|---|---|
+| O1 | Voice, video and group calls; adding people to a call; ringtones | Worked, per the owner |
+| O2 | Incoming-call ring and notifications when the app is closed | Worked, per the owner |
+| O3 | Live location | Worked, per the owner |
+| O4 | Premium prompt | Prompt works, per the owner. The code does not take payments, so no billing was tested |
+| O5 | Speed | Owner reports it works well. No figures were recorded, so [PERFORMANCE.md](../PERFORMANCE.md) lists none |

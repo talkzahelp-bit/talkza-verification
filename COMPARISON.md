@@ -14,8 +14,8 @@ As of 2026-11-01. Talkza labels are explained in the [README](README.md).
 | Every device's key kept on record so messages from any of your devices open | Built, retest pending |
 | Per-chat PIN lock, per-chat themes | Built |
 | Shared task lists, expense split, shopping list, important dates inside the app | Built |
-| Add people to a one-to-one call, turning it into a group call | Built |
-| Choice of call ringtones | Built |
+| Add people to a one-to-one call, turning it into a group call | Verified by owner (O1) |
+| Choice of call ringtones | Verified by owner (O1) |
 | User-controlled recovery phrase backup | Built |
 
 ## What WhatsApp has that Talkza does not (yet)

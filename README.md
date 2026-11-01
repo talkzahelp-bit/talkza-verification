@@ -10,6 +10,7 @@ Every claim uses one of these labels. A feature is called **Verified** only if a
 | Label | Meaning |
 |---|---|
 | Verified | Tested and seen working, with a record in `test-results/` |
+| Verified by owner | Tested by hand by the owner on real devices; recorded here, not watched by the assistant |
 | Built | Written and deployed, not yet tested end to end |
 | Needs real devices | Can only be shown on real phones, not yet tested |
 | Planned | Not built |

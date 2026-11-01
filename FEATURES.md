@@ -13,17 +13,18 @@ Labels are explained in the [README](README.md). Last updated: 2026-11-01.
 | Recently deleted messages per chat, undo delete, wipe | Built |
 | Message yourself (private chat with only you) | Built |
 | Private contact names, only you see them | Built |
-| Polls, events, contact cards, locations, live location, stickers, GIFs | Built |
+| Polls, events, contact cards, locations, stickers, GIFs | Built |
+| Live location | Verified by owner (O3) |
 | Shared task lists per chat | Built |
 | Scheduled calls and call links | Built |
 
 ## Calls and status
 | Feature | Status |
 |---|---|
-| Voice and video calls | Built |
-| Group calls; add people to a call | Built |
-| Choice of ringtones | Built |
-| Incoming-call ring when the app is closed | Needs real devices |
+| Voice and video calls | Verified by owner (O1) |
+| Group calls; add people to a call | Verified by owner (O1) |
+| Choice of ringtones | Verified by owner (O1) |
+| Incoming-call ring when the app is closed | Verified by owner (O2) |
 | Status updates (24 hours), hide from chosen people | Built |
 | Channels, communities, broadcast lists | Built |
 
@@ -52,4 +53,4 @@ Scam check for new contacts, chat summary, before-you-share check, tone check, e
 Limit: deals send only while Talkza is open on the owner's device, because messages are encrypted on that device.
 
 ## Premium
-Some tools show a "Go to Talkza Premium" prompt. Billing is not connected. Built.
+Some tools show a "Go to Talkza Premium" prompt (owner reports it works, O4). The code does not process payments, so no payments were tested.
