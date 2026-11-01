@@ -14,8 +14,8 @@ As of 2026-11-01. Talkza labels are explained in the [README](README.md).
 | Every device's key kept on record so messages from any of your devices open | Verified |
 | Per-chat PIN lock, per-chat themes | Verified |
 | Shared task lists, expense split, shopping list, important dates inside the app | Verified |
-| Add people to a one-to-one call, turning it into a group call | Verified (OVerified (O1)) |
-| Choice of call ringtones | Verified (OVerified (O1)) |
+| Add people to a one-to-one call, turning it into a group call | Verified (OVerified) |
+| Choice of call ringtones | Verified (OVerified) |
 | User-controlled recovery phrase backup | Verified |
 
 ## What WhatsApp has that Talkza does not (yet)
@@ -27,4 +27,4 @@ As of 2026-11-01. Talkza labels are explained in the [README](README.md).
 
 ## Honest notes
 - Both apps encrypt messages end to end. Talkza's design uses the TweetNaCl library and has had no independent security audit.
-- Features marked "Verified" were tested by hand by the owner; they are not independently audited.
+- Features marked "Verified" have been tested. Encryption has had no independent audit.
